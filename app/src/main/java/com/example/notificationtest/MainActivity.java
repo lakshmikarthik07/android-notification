@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
                     .setContentTitle(String.format("%s (id %d)", title, notificationId))
                     .setContentText("Much longer text that cannot fit one line...")
                     .setPriority(NotificationCompat.PRIORITY_DEFAULT)
-                    .setAutoCancel(false)
+                    // .setAutoCancel(false)
                     // Add the action button
                     .addAction(R.drawable.ic_launcher_foreground, ctx.getString(R.string.snooze),
                             snoozePendingIntent);
